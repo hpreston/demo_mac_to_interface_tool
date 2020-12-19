@@ -1,3 +1,7 @@
+# Ignore testbed and output files for this project
+results.json
+testbed.yaml
+
 scratch*
 *.code-workspace
 yang.settings
