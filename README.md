@@ -24,6 +24,14 @@ As I always like to build things to be able to share, which is why I'm posting i
 
 Suppose you want to leverage this script and test it in your lab.  This script is built using [pyATS](https://developer.cisco.com/pyats), an open source Python network automation framework from Cisco.  If you are new to pyATS, I’d encourage you to checkout the [Getting Started Guide](https://developer.cisco.com/docs/pyats-getting-started/) on DevNet.
 
+Start out by installing pyATS in your Python virtual environment.  I've included a requirements file that has the version of pyATS I used for the project, but any newer version should work. 
+
+```
+python3.7 -m venv venv 
+source venv/bin/activate 
+pip install -r requirements.txt 
+```
+
 First, you’ll need to generate a Testbed for your network to get started.  A Testbed is like an inventory file from Ansible or another automation tool.  The testbed file is formatted in YAML, but can be created from an Excel/CSV file or other methods.  For full details on Testbed creation, check out [Creating Testbed YAML File](https://pubhub.devnetcloud.com/media/pyats-getting-started/docs/quickstart/manageconnections.html#creating-testbed-yaml-file)
 In the documentation. 
 
