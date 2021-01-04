@@ -1,4 +1,7 @@
 # Demonstration Script
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/hpreston/demo_mac_to_interface_tool)
+
 This was a fun little project to tackle here at the end of 2020.  It started with a question that I got via email.  The gist of the question was: 
 
 > We've a need to grab the IP table off our core, and associate it with MAC addresses and interfaces on edge switches. We could do it manually with Excel, but is there an easier way? 
